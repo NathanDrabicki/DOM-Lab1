@@ -1,0 +1,15 @@
+.coins {
+  border-radius: 50%;
+}
+
+.light-bulb {
+  background-color: lightgray;
+  border-radius: 10px;
+  padding: 15px;
+  width: 100px;
+  height: 40px;
+}
+
+.alternate {
+  background-color: yellow;
+}

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lab 1</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section>
+      <p class="total">$0.00</p>
+      <button class="cola">Lime Cola $2.00</button>
+      <button class="peanuts">Salted Peanuts $3.00</button>
+      <button class="chocolate">Chocolate Bar $4.00</button>
+      <button class="gummies">Fruit Gummies $6.00</button>
+    </section>
+    <form class="form-for-money">
+      <label for="how-many">How many?</label>
+      <input type="text" id="how-many" name="how-many" />
+      <label for="which-coin">Which coin?</label>
+      <select name="which-coin" id="which-coin">
+        <option value="penny">Penny</option>
+        <option value="nickel">Nickel</option>
+        <option value="dime">Dime</option>
+        <option value="quarter">Quarter</option>
+      </select>
+      <button>Make Money!</button>
+      <div class="coins"></div>
+      <div class="light-bulb">Light Bulb</div>
+      <button>On</button>
+      <button>Off</button>
+      <button>Toggle</button>
+      <button>End</button>
+    </form>
+    <script src="script.js"></script>
+  </body>
+</html>
